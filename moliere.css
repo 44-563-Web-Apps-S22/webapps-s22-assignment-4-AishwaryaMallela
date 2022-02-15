@@ -24,3 +24,23 @@
 .LAFL{
     color:red;
 }
+table{
+    border:solid 4px rgb(0, 102, 128);
+    border-collapse: collapse;
+    padding: 15px;   
+}
+th{
+    margin:10px;
+    border: solid 1px;
+    padding:8px;
+    text-align: center;   
+}
+td{
+    margin: 10px;
+    border: solid 1px;
+    padding: 8px;
+    text-align: center;  
+}
+tr:nth-child(even){
+    background-color: rgb(168, 178, 32);
+}
