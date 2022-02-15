@@ -44,3 +44,7 @@ td{
 tr:nth-child(even){
     background-color: rgb(168, 178, 32);
 }
+.name:hover{
+    text-shadow: 2px 3px 5px royalblue;
+    border: dotted 4px lightgray;
+}
